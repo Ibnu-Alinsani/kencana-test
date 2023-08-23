@@ -20,7 +20,7 @@ var db *sql.DB
 
 func main() {
 	// koneksi MySQL 
-	dsn := "postgres:FhXKkO3hsUsiIWW@tcp(kencana-test-db.internal:5432)/Users"
+	dsn := "root:224466@tcp(localhost:3360)/Users"
 
 	var err error
 	db, err = sql.Open("mysql", dsn)
